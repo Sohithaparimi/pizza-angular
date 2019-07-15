@@ -1,0 +1,45 @@
+body{
+    background-color:DCD6D5;
+    background-attachment:fixed;
+    }
+img{
+   width:500px;
+   height:300px;
+ }
+img{
+   
+   border-radius:10%;
+   background-color:brown;
+ }
+a{
+    text-decoration:none;
+    color:white;
+    box-align:center;
+}
+div
+{
+    background-color:494B4B;
+     
+}
+h1
+{
+    font-family:cursive;
+    color:FC3605;
+}
+
+          .featured1{
+             float:left;
+             margin-left:70px;
+             margin-bottom:20px;
+             margin-right:5px;
+             margin-top:30px;
+             width:25%;
+             background-color:red;
+         }
+         .featured1:hover{
+             box-shadow:1px 1px 1px 2px grey;
+             
+         }
+         /* .c3{
+                  width:100%;
+                  } */ 

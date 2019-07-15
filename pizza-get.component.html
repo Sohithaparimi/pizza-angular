@@ -1,0 +1,31 @@
+<!-- <p>pizza-get works!</p> -->
+
+<div class="container">
+    <p><a routerLink="/pizza/allPizza">All Pizzas</a></p>
+        <a routerLink="/pizza/addPizza">Add New Pizza</a>
+        <div class="row">
+            <div class="col-md-2">PizzaId</div>
+            <div class="col-md-3">PizzaName</div>
+            <div class="col-md-3">Price</div>
+            <div class="col-md-3">Operation</div>
+        </div>
+        <div class="row" *ngFor="let pizza of pizzas " (click)="onSelection(pizza)">
+            <div class="col-md-2">{{pizza.pizzaId}}</div>
+            <div class="col-md-3">{{pizza.pizzaName}}</div>
+            <div class="col-md-3">{{pizza.price}}</div>
+            <!-- <div class="col-md-3"> -->
+            <a routerLink="/pizza/delete/{{pizza.pizzaId}}">Delete</a>
+            <div class="col-md-2" (click)="onSelection(pizza)"> <a routerLink="/pizza/update/{{pizza.pizzaId}}">Update</a></div>
+            <div class="col-md-0" >
+                   
+                 <a routerLink="/pizza/addtoCart/{{pizza.pizzaId}}">Add to cart</a></div>  
+            <!-- <a>Add to cart</a> -->
+            <!-- <div class="col-md-2">Update</div> -->
+       </div>
+    <div *ngIf="selectedPizza" class="selectedPizza">
+        <app-pizza-update [pizza]="selectedPizza"></app-pizza-update>
+        
+    </div>
+</div>
+<router-outlet></router-outlet>
+    

@@ -1,0 +1,57 @@
+selectedPizza{
+    position: center;
+    margin-bottom: 500px;
+    margin-left: 700px;
+    margin-block: 50px;
+}
+
+/* .pizza {
+    background-color:pink;
+    border:2px solid magenta;
+    width:400px;
+
+} */
+ 
+/* .selected h4{
+    background-color:bisque;
+ 
+}  */
+
+
+ 
+/* .col-sm-2{
+    margin-right: 8px;
+    text-align: left; 
+    margin: auto;
+} */
+
+/* .container-fluid
+{
+    margin-right: 8px;
+    text-align: left; 
+    margin: auto;
+    background: burlywood;
+    background-color:bisque;
+    border:3px solid black;
+    width:600px;
+    padding: 12px;
+    text-align: left;
+} */
+
+/* #add{
+    font-size: 15px;
+}
+ */
+
+.row {
+    background: rgb(161, 89, 143);
+  background-color:#B1A296;
+  border:3px solid rgb(3, 3, 3);
+  width:1000px;
+  padding: 12px;
+  text-align: left;
+}
+
+
+
+
