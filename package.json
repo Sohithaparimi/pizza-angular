@@ -75,7 +75,7 @@
     "rxjs": "^6.2.1",
     "selenium-webdriver": "^3.4.0",
     "systemjs": "^0.19.37",
-    "terser": "^3.16.1",
+    "terser": "^4.8.1",
     "ts-loader": "^0.6.0",
     "tslint": "^4.1.1",
     "tslint-eslint-rules": "^3.1.0",
